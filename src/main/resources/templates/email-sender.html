@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Add User</title>
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin: 50px auto;
+			max-width: 500px;
+		}
+
+		input[type="email"],
+		input[type="text"],
+		textarea {
+			width: 100%;
+			padding: 10px;
+			margin: 10px 0;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+			font-size: 16px;
+		}
+
+		input[type="email"]:focus,
+		input[type="text"]:focus,
+		textarea:focus {
+			outline: none;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+		}
+
+		textarea {
+			height: 200px;
+		}
+
+		button[type="submit"] {
+			display: block;
+			padding: 10px 20px;
+			background-color: #007bff;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			font-size: 18px;
+			cursor: pointer;
+			width: 150px;
+		}
+
+		button[type="submit"]:hover {
+			background-color: #0056b3;
+		}
+
+		.abc{
+			width: fit-content;
+			margin: auto;
+			color: #0056b3;
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<div>
+		<br>
+		<br>
+		<h1 class="abc">Email Sender form</h1>
+		<form method="post" th:action="@{/send-email}">
+			<input type="email" name="reciver" placeholder="Reciver" required>
+			<input type="text" name="subject" placeholder="Subject" required>
+			<textarea name="message" placeholder="Message" required></textarea>
+			<br>
+			<button type="submit">Send</button>
+		</form>
+	</div>
+
+</body>
+
+</html>

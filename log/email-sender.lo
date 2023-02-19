@@ -1,0 +1,53 @@
+2023-02-19T16:03:01.276-05:00  INFO 6702 --- [restartedMain] c.p.e.EmailSenderProjectApplication      : Starting EmailSenderProjectApplication using Java 17.0.5 with PID 6702 (/Users/rijalsujan09/workspace-springProject/email_sender_project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/email_sender_project)
+2023-02-19T16:03:01.276-05:00 DEBUG 6702 --- [restartedMain] c.p.e.EmailSenderProjectApplication      : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-19T16:03:01.276-05:00  INFO 6702 --- [restartedMain] c.p.e.EmailSenderProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T16:03:01.335-05:00  INFO 6702 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T16:03:01.337-05:00  INFO 6702 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T16:03:01.383-05:00  INFO 6702 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-02-19T16:03:01.383-05:00  INFO 6702 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T16:03:01.383-05:00  INFO 6702 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T16:03:01.387-05:00  INFO 6702 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T16:03:01.387-05:00  INFO 6702 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 110 ms
+2023-02-19T16:03:01.401-05:00  INFO 6702 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T16:03:01.403-05:00  WARN 6702 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T16:03:01.404-05:00  INFO 6702 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-02-19T16:03:01.417-05:00  INFO 6702 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e23af3
+2023-02-19T16:03:01.417-05:00  INFO 6702 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-02-19T16:03:01.417-05:00  INFO 6702 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T16:03:01.425-05:00  INFO 6702 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.emailsender.entity.Email (class must be instantiated by Interceptor)
+2023-02-19T16:03:01.432-05:00  INFO 6702 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T16:03:01.432-05:00  INFO 6702 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T16:03:01.457-05:00  WARN 6702 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T16:03:01.501-05:00  INFO 6702 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T16:03:01.507-05:00  INFO 6702 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-02-19T16:03:01.508-05:00  INFO 6702 --- [restartedMain] c.p.e.EmailSenderProjectApplication      : Started EmailSenderProjectApplication in 0.243 seconds (process running for 1208.777)
+2023-02-19T16:03:01.509-05:00  INFO 6702 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-19T16:03:41.268-05:00  INFO 6702 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-19T16:03:41.274-05:00  INFO 6702 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-19T16:03:41.280-05:00  INFO 6702 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T16:03:41.280-05:00  INFO 6702 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-02-19T16:03:41.283-05:00  INFO 6702 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-02-19T16:03:41.321-05:00  INFO 6702 --- [restartedMain] c.p.e.EmailSenderProjectApplication      : Starting EmailSenderProjectApplication using Java 17.0.5 with PID 6702 (/Users/rijalsujan09/workspace-springProject/email_sender_project/target/classes started by rijalsujan09 in /Users/rijalsujan09/workspace-springProject/email_sender_project)
+2023-02-19T16:03:41.322-05:00 DEBUG 6702 --- [restartedMain] c.p.e.EmailSenderProjectApplication      : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-19T16:03:41.322-05:00  INFO 6702 --- [restartedMain] c.p.e.EmailSenderProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-19T16:03:41.373-05:00  INFO 6702 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-19T16:03:41.376-05:00  INFO 6702 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interfaces.
+2023-02-19T16:03:41.410-05:00  INFO 6702 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-02-19T16:03:41.410-05:00  INFO 6702 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-19T16:03:41.411-05:00  INFO 6702 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-19T16:03:41.414-05:00  INFO 6702 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-19T16:03:41.414-05:00  INFO 6702 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 92 ms
+2023-02-19T16:03:41.427-05:00  INFO 6702 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-19T16:03:41.428-05:00  WARN 6702 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-19T16:03:41.429-05:00  INFO 6702 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-02-19T16:03:41.443-05:00  INFO 6702 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce0f9e6
+2023-02-19T16:03:41.443-05:00  INFO 6702 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-02-19T16:03:41.444-05:00  INFO 6702 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-02-19T16:03:41.450-05:00  INFO 6702 --- [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.projectsujan.emailsender.entity.Email (class must be instantiated by Interceptor)
+2023-02-19T16:03:41.457-05:00  INFO 6702 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-19T16:03:41.457-05:00  INFO 6702 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-19T16:03:41.480-05:00  WARN 6702 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-19T16:03:41.516-05:00  INFO 6702 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-19T16:03:41.523-05:00  INFO 6702 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-02-19T16:03:41.524-05:00  INFO 6702 --- [restartedMain] c.p.e.EmailSenderProjectApplication      : Started EmailSenderProjectApplication in 0.213 seconds (process running for 1248.793)
+2023-02-19T16:03:41.525-05:00  INFO 6702 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
